@@ -1,12 +1,18 @@
 @media (max-width: 769px) {
     main::after {
         background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.0) 65%);
-        width: 100vw;
+        width: 100vw;   
+    }
+
+    main .personagem .Imagem {
+        
+        background-image: url("../img/res-sukuna.jpg");
+        overflow: hidden;
+        z-index: 1;
+
         
     }
-    main .personagem .Imagem {
-        height: 85%;
-    }
+    
     .conteudo {
         justify-content: flex-end;
         left: 0;
